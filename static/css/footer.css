@@ -1,0 +1,32 @@
+.footer {
+    border-top: 2px solid var(--secondary-color, #00bcd4);
+}
+
+.footer-nav a:hover {
+    color: var(--primary-color, #00bcd4);
+    border-bottom: 2px solid var(--primary-color, #00bcd4);
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+.footer h2 {
+    font-family: "Lobster", cursive;
+    letter-spacing: 1px;
+}
+
+.footer i:hover {
+    color: var(--primary-color, #00bcd4);
+    transition: color 0.3s ease;
+}
+
+html,
+body {
+    background-color: #b1b1b1 !important;
+    height: 100%;
+}
+
+main,
+.container,
+.page-content {
+    background-color: transparent !important;
+}

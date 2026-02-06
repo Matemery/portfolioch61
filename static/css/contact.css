@@ -1,0 +1,37 @@
+.contact-section {
+    background-color: var(--background-color, #b1b1b1);
+}
+
+.contact-form .form-control {
+    border-radius: 0.5rem;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+    border-color: var(--primary-color, #00bcd4);
+    box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.25);
+}
+
+.contact-form button {
+    background-color: var(--primary-color, #00bcd4);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color, #008ba3);
+}
+
+html,
+body {
+    background-color: #b1b1b1 !important;
+    height: 100%;
+}
+
+main,
+.container,
+.page-content {
+    background-color: transparent !important;
+}
