@@ -1,5 +1,5 @@
 .contact-section {
-    background-color: var(--background-color, #b1b1b1);
+    background-color: var(--background-color, #f5f2f2);
 }
 
 .contact-form .form-control {
@@ -26,7 +26,7 @@
 
 html,
 body {
-    background-color: #b1b1b1 !important;
+    background-color: #f8f5f5 !important;
     height: 100%;
 }
 

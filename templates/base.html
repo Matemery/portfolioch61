@@ -60,6 +60,9 @@
           <li class="nav-item">
             <a class="nav-link {% if request.resolver_match.url_name == 'contact' %}active{% endif %}" href="{% url 'contact' %}">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link {% if request.resolver_match.url_name == 'projects' %}active{% endif %}" href="{% url 'projects' %}">Projects</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -84,6 +87,7 @@
           <a href="{% url 'about_me' %}" class="text-light text-uppercase text-decoration-none small">About</a>
           <a href="{% url 'experience' %}" class="text-light text-uppercase text-decoration-none small">Experience</a>
           <a href="{% url 'contact' %}" class="text-light text-uppercase text-decoration-none small">Contact</a>
+          <a href="{% url 'projects' %}" class="text-light text-uppercase text-decoration-none small">Projects</a>
         </nav>
       </div>
 
