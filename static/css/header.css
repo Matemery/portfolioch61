@@ -1,5 +1,5 @@
 .navbar {
-    background-color: var(--surface-color, #222) !important;
+    background-color: var(--surface-color, #f5f2f2) !important;
 }
 
 .navbar-brand {
@@ -18,8 +18,8 @@
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: var(--primary-color, #00bcd4) !important;
-    border-bottom: 2px solid var(--primary-color, #00bcd4);
+    color: var(--primary-color, #ecf1f1) !important;
+    border-bottom: 2px solid var(--primary-color, #0a0a0a);
 }
 
 .navbar-toggler {
@@ -28,7 +28,7 @@
 
 html,
 body {
-    background-color: #b1b1b1 !important;
+    background-color: #0e0d0d !important;
     height: 100%;
 }
 

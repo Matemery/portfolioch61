@@ -1,14 +1,14 @@
 /*Variables*/
 :root {
-    --primary-color: #1d9100;
+    --primary-color: #000000;
 
-    --secondary-color: #1d9100;
+    --secondary-color: #e3e7e2;
 
-    --neutral-color: #333333;
+    --neutral-color: #0e0d0d;
 
     --background-color: #919191;
 
-    --surface-color: #1d9100;
+    --surface-color: #081ddb;
 
     --lobster-font: 'Lobster', sans-serif;
     --sans-font: 'DM Sans', sans-serif;
@@ -65,7 +65,7 @@ p {
 }
 
 .text-label {
-    color: white;
+    color: rgb(17, 17, 17);
     background-color: var(--secondary-color);
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -76,7 +76,7 @@ p {
 
 html,
 body {
-    background-color: #b1b1b1 !important;
+    background-color: #c72828 !important;
     height: 100%;
 }
 
